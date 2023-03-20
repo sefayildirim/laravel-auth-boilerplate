@@ -11,12 +11,12 @@
 
 laravel fortify & bootstrap auth
 
-laravel new example-app
-cd example-app
-composer require laravel/fortify
-php artisan vendor:publish --provider="Laravel\Fortify\FortifyServiceProvider"
-php artisan migrate
-composer require laravel/ui
-php artisan ui bootstrap --auth
-npm install
-npm run build
+1- laravel new example-app
+2- cd example-app
+3- composer require laravel/fortify
+4- php artisan vendor:publish --provider="Laravel\Fortify\FortifyServiceProvider"
+5- php artisan migrate
+6- composer require laravel/ui
+7- php artisan ui bootstrap --auth
+8- npm install
+9- npm run build
